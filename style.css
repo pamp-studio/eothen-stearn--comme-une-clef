@@ -1,9 +1,7 @@
 body {
-    font-family: monospace,sans-serif;
+    /* font-family: monospace,sans-serif; */
     max-width: 100%;
     overflow-x: hidden;
-    background-color: black;
-    cursor: none;
     font-size:16px;
 }
 
@@ -11,15 +9,6 @@ main {
     width: 650px;
     margin: 0px auto;
     max-width: 85vw;
-}
-
-#tabs .container{
-    animation: none;
-    background:white;
-}
-
-#tabs .container:hover{
-    animation:none;
 }
 
 #tabs div[data-tab] {
