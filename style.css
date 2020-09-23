@@ -21,6 +21,10 @@ h1{
     padding: 3px;
 }
 
+h4{
+    background: thistle;
+}
+
 #tabs div[data-tab] {
     margin: 0px;
 }
