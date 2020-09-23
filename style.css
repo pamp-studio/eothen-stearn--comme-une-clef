@@ -1,0 +1,58 @@
+body {
+    font-family: monospace,sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    cursor: none;
+    font-size:16px;
+}
+
+main {
+    width: 650px;
+    margin: 0px auto;
+    max-width: 85vw;
+}
+
+#tabs .container{
+    animation: none;
+    background:white;
+}
+
+#tabs .container:hover{
+    animation:none;
+}
+
+#tabs div[data-tab] {
+    margin: 0px;
+}
+
+#tabs nav ul li {
+    display: inline-block;
+    border-color: white;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-style: dotted;
+    padding: 15px;
+    border-radius: 3px 0px 0px 0px;
+    cursor: pointer;
+    border-width: 1px 1px 0px 1px;
+    font-size:14px;
+}
+
+#tabs nav ul li.active {
+    border-style: solid;
+    border-color: white;
+    background: white;
+    font-weight:bold;
+}
+
+#tabs nav ul li span {
+    display: inline-block;
+    transition: transform .8s ease-in-out;
+}
+
+
+
+#tabs div[data-tab] {
+    padding: 40px;
+}
+
