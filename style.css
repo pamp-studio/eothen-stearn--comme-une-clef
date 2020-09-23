@@ -6,9 +6,13 @@ body {
 }
 
 main {
-    width: 650px;
+    width: 850px;
     margin: 0px auto;
-    max-width: 85vw;
+    max-width: 95vw;
+}
+
+footer{
+    text-align: center;
 }
 
 #tabs div[data-tab] {
@@ -18,30 +22,25 @@ main {
 #tabs nav ul li {
     display: inline-block;
     border-color: white;
-    background-color:rgba(255, 255, 255, 0.8);
     border-style: dotted;
-    padding: 15px;
+    padding: 5px;
     border-radius: 3px 0px 0px 0px;
     cursor: pointer;
     border-width: 1px 1px 0px 1px;
     font-size:14px;
+    
+}
+
+#tabs nav ul {
+    margin:0px;
+    padding:0px;
 }
 
 #tabs nav ul li.active {
     border-style: solid;
+    color: white;
     border-color: white;
-    background: white;
+    background-color:rgba(0, 0, 0, 0.8);
     font-weight:bold;
+    margin:0px;
 }
-
-#tabs nav ul li span {
-    display: inline-block;
-    transition: transform .8s ease-in-out;
-}
-
-
-
-#tabs div[data-tab] {
-    padding: 40px;
-}
-
