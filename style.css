@@ -19,21 +19,21 @@ footer{
     margin: 0px;
 }
 
-#tabs nav ul li {
-    display: inline-block;
-    border-color: white;
-    border-style: dotted;
-    padding: 5px;
-    border-radius: 3px 0px 0px 0px;
-    cursor: pointer;
-    border-width: 1px 1px 0px 1px;
-    font-size:14px;
-    
-}
-
 #tabs nav ul {
     margin:0px;
     padding:0px;
+}
+
+#tabs nav ul li {
+    display: inline-block;
+    border-style: dotted;
+    padding: 10px;
+    border-color:black;
+    border-radius: 3px 0px 0px 0px;
+    cursor: pointer;
+    border-width: 1px 1px 0px 1px;
+    font-size:18px;
+    
 }
 
 #tabs nav ul li.active {
