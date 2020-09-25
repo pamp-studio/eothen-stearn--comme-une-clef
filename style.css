@@ -44,7 +44,6 @@ h4{
     cursor: pointer;
     border-width: 1px 1px 0px 1px;
     font-size:18px;
-    filter: blur(0.5px);
 }
 
 #tabs nav ul li a {
@@ -59,5 +58,4 @@ h4{
     background-color: white;
     font-weight:bold;
     margin:0px;
-    filter: blur(0px);
 }
