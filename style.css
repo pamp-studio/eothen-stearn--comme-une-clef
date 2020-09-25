@@ -36,21 +36,28 @@ h4{
 
 #tabs nav ul li {
     display: inline-block;
-    border-style: dotted;
     padding: 10px;
-    border-color:black;
+    color: white;
+    border-color: white;
+    background-color:rgba(0, 0, 0, 0.5);
     border-radius: 3px 0px 0px 0px;
     cursor: pointer;
     border-width: 1px 1px 0px 1px;
     font-size:18px;
-    
+    filter: blur(0.5px);
+}
+
+#tabs nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 #tabs nav ul li.active {
-    border-style: solid;
-    color: white;
-    border-color: white;
-    background-color:rgba(0, 0, 0, 0.8);
+    border-style: dotted;
+    color: black;
+    border-color:black;
+    background-color: white;
     font-weight:bold;
     margin:0px;
+    filter: blur(0px);
 }
