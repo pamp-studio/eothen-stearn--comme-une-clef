@@ -41,7 +41,6 @@ h4{
     border-color: white;
     background-color:rgba(0, 0, 0, 0.5);
     border-radius: 3px 0px 0px 0px;
-    cursor: pointer;
     border-width: 1px 1px 0px 1px;
     font-size:18px;
 }
@@ -49,6 +48,7 @@ h4{
 #tabs nav ul li a {
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #tabs nav ul li.active {

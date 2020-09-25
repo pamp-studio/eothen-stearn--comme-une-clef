@@ -1,11 +1,10 @@
-var cacheHistory = ['v0.006','v0.005','v0.003','v0.004','v0.002','v0.001','v0.00','v0.01','v0.02','v0.03','v0.04','v0.05','v0.06','v0.07','v0.08','v0.09','v0.10','v0.11'];
-var cacheName = 'v0.007';
+var cacheHistory = ['v0.008','v0.007','v0.006','v0.005','v0.003','v0.004','v0.002','v0.001','v0.00','v0.01','v0.02','v0.03','v0.04','v0.05','v0.06','v0.07','v0.08','v0.09','v0.10','v0.11'];
+var cacheName = 'v0.009';
 var urlsToCache = [
-  '/',
-  'index.html',
-  'english.html',
-  'style.css',
-  'js/script.js',
+  '/?0',
+  'index.html?0',
+  'english.html?0',
+  'style.css?0',
   'media/audio/Eothen-Stearn-Comme-Une-Clef.mp3'
 ];
 
